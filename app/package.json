@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "parcel build src/index.html --detailed-report --no-cache --out-dir dist",
+    "dev": "parcel serve src/index.html --out-dir dist --port 4001 --open"
+  },
+  "dependencies": {
+    "@material-ui/styles": "^4.0.0-beta.2",
+    "card": "file:../card",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.4.5"
+  }
+}
